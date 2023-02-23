@@ -406,6 +406,12 @@ footer {
   text-align: left;
   margin-left: 19px;
 }
+@media (max-width: 768px) {
+.icon{
+  visibility: hidden;;
+}
+}
+
 
 @media (min-width: 768px) {
   /* header */
@@ -525,6 +531,7 @@ footer {
 }
 
 .f-img-container{
+  
   display: flex;
   justify-content:right;
   gap: 30px;
@@ -536,6 +543,10 @@ footer {
   font-weight: 700;
   text-align: left;
   margin-left: 19px;
+}
+
+.icon{
+  visibility: visible;
 }
   
 }
@@ -603,6 +614,10 @@ footer {
   font-weight: 700;
   text-align: left;
   margin-left: 19px;
+}
+
+.icon{
+  visibility: visible;
 }
 }
 

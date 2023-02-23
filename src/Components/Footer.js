@@ -12,10 +12,10 @@ function Footer() {
     </div>
 
     <div className="f-img-container">
-        <img src='./img2/fb.svg'alt="facebook"/>
-        <img src='./img2/linkedin.svg'alt="facebook"/>
-        <img src='./img2/tweet.svg' alt="twitter" href="Twitter"/>
-        <img src='./img2/ig.svg' alt="instgram" href="Instgram"/>        
+        <img className="icon" src='./img2/fb.svg'alt="facebook"/>
+        <img className="icon" src='./img2/linkedin.svg'alt="facebook"/>
+        <img className="icon" src='./img2/tweet.svg' alt="twitter" href="Twitter"/>
+        <img className="icon" src='./img2/ig.svg' alt="instgram" href="Instgram"/>        
     </div>
 </footer>
   )
